@@ -47,32 +47,32 @@
 .loading-icon > div > div > div:nth-child(1) {
   --this-deg: 0deg;
   transform: rotate(var(--this-deg));
-  animation: div-animation 4s cubic-bezier(.17,.67,.45,.99) 500ms infinite normal both;
+  animation: div-animation 3s cubic-bezier(.17,.67,.45,.99) 500ms infinite normal both;
 }
 .loading-icon > div > div > div:nth-child(2) {
   --this-deg: 30deg;
   transform: rotate(var(--this-deg));
-  animation: div-animation 4s cubic-bezier(.17,.67,.45,.99) 440ms infinite normal both;
+  animation: div-animation 3s cubic-bezier(.17,.67,.45,.99) 440ms infinite normal both;
 }
 .loading-icon > div > div > div:nth-child(3) {
   --this-deg: 60deg;
   transform: rotate(var(--this-deg));
-  animation: div-animation 4s cubic-bezier(.17,.67,.45,.99) 360ms infinite normal both;
+  animation: div-animation 3s cubic-bezier(.17,.67,.45,.99) 360ms infinite normal both;
 }
 .loading-icon > div > div > div:nth-child(4) {
   --this-deg: 90deg;
   transform: rotate(var(--this-deg));
-  animation: div-animation 4s cubic-bezier(.17,.67,.45,.99) 260ms infinite normal both;
+  animation: div-animation 3s cubic-bezier(.17,.67,.45,.99) 260ms infinite normal both;
 }
 .loading-icon > div > div > div:nth-child(5) {
   --this-deg: 120deg;
   transform: rotate(var(--this-deg));
-  animation: div-animation 4s cubic-bezier(.17,.67,.45,.99) 140ms infinite normal both;
+  animation: div-animation 3s cubic-bezier(.17,.67,.45,.99) 140ms infinite normal both;
 }
 .loading-icon > div > div > div:nth-child(6) {
   --this-deg: 150deg;
   transform: rotate(var(--this-deg));
-  animation: div-animation 4s cubic-bezier(.17,.67,.45,.99) 0ms infinite normal both;
+  animation: div-animation 3s cubic-bezier(.17,.67,.45,.99) 0ms infinite normal both;
 }
 
 @keyframes div-body-animation {
@@ -87,11 +87,8 @@
   0% {
     transform: rotate(var(--this-deg));
   }
-  33% {
-    transform: rotate(calc(var(--this-deg) + 120deg));
-  }
-  66% {
-    transform: rotate(calc(var(--this-deg) + 240deg));
+  50% {
+    transform: rotate(calc(var(--this-deg) + 180deg));
   }
   100% {
     transform: rotate(calc(var(--this-deg) + 360deg));
