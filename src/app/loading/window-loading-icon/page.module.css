@@ -24,7 +24,7 @@
   position: absolute;
   --this-deg: 0deg;
   transform: rotate(var(--this-deg));
-  animation: div-body-animation 5s linear 0ms infinite normal both;
+  animation: loading-icon-div-body-animation 5s linear 0ms infinite normal both;
 }
 .loading-icon > div > div > div {
   width: 0;
@@ -47,35 +47,35 @@
 .loading-icon > div > div > div:nth-child(1) {
   --this-deg: 0deg;
   transform: rotate(var(--this-deg));
-  animation: div-animation 3s cubic-bezier(.17,.67,.45,.99) 500ms infinite normal both;
+  animation: loading-icon-div-animation 3s cubic-bezier(.17,.67,.45,.99) 500ms infinite normal both;
 }
 .loading-icon > div > div > div:nth-child(2) {
   --this-deg: 30deg;
   transform: rotate(var(--this-deg));
-  animation: div-animation 3s cubic-bezier(.17,.67,.45,.99) 440ms infinite normal both;
+  animation: loading-icon-div-animation 3s cubic-bezier(.17,.67,.45,.99) 440ms infinite normal both;
 }
 .loading-icon > div > div > div:nth-child(3) {
   --this-deg: 60deg;
   transform: rotate(var(--this-deg));
-  animation: div-animation 3s cubic-bezier(.17,.67,.45,.99) 360ms infinite normal both;
+  animation: loading-icon-div-animation 3s cubic-bezier(.17,.67,.45,.99) 360ms infinite normal both;
 }
 .loading-icon > div > div > div:nth-child(4) {
   --this-deg: 90deg;
   transform: rotate(var(--this-deg));
-  animation: div-animation 3s cubic-bezier(.17,.67,.45,.99) 260ms infinite normal both;
+  animation: loading-icon-div-animation 3s cubic-bezier(.17,.67,.45,.99) 260ms infinite normal both;
 }
 .loading-icon > div > div > div:nth-child(5) {
   --this-deg: 120deg;
   transform: rotate(var(--this-deg));
-  animation: div-animation 3s cubic-bezier(.17,.67,.45,.99) 140ms infinite normal both;
+  animation: loading-icon-div-animation 3s cubic-bezier(.17,.67,.45,.99) 140ms infinite normal both;
 }
 .loading-icon > div > div > div:nth-child(6) {
   --this-deg: 150deg;
   transform: rotate(var(--this-deg));
-  animation: div-animation 3s cubic-bezier(.17,.67,.45,.99) 0ms infinite normal both;
+  animation: loading-icon-div-animation 3s cubic-bezier(.17,.67,.45,.99) 0ms infinite normal both;
 }
 
-@keyframes div-body-animation {
+@keyframes loading-icon-div-body-animation {
   0% {
     transform: rotate(var(--this-deg));
   } 
@@ -83,7 +83,7 @@
     transform: rotate(calc(var(--this-deg) + 360deg));
   }
 }
-@keyframes div-animation {
+@keyframes loading-icon-div-animation {
   0% {
     transform: rotate(var(--this-deg));
   }
