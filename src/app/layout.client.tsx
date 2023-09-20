@@ -9,9 +9,9 @@ interface MenuItem {
 
 export function RootLayoutClient() {
   const [menuItems, setMenuItems] = useState<MenuItem[]>([
-    {
-      name: `/loading/window-loading-icon`, href: `/loading/window-loading-icon`,
-    },
+    { name: `/loading/window-loading-icon`, href: `/loading/window-loading-icon`, },
+    { name: `/loading/window-loading-icon-v2`, href: `/loading/window-loading-icon-v2`, },
+    { name: `/filled-water`, href: `/filled-water`, },
   ]);
 
   return (
